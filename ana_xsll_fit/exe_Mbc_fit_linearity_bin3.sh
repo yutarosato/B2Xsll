@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./draws_1d_Mbc_fit_linearity_bin3 $1 $2 $3 $4 $5 $6 $7 0 << EOF 1>  log/log_Mbc_bin3_func$5_asym$6_s0$1_set$2_$7q2.log 2>> error.log
+EOF
